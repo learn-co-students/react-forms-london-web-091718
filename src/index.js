@@ -1,7 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
+import ControlledInput from "./components/ControlledInput";
+
+ReactDOM.render(<ControlledInput />, document.getElementById("root"));
 ReactDOM.render(
   <div>Mount Components Here</div>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
